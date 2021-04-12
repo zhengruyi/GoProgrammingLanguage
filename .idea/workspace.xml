@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee594d55-68f3-4481-9cce-71fd7e3ff0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch5/topoSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5/trace.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/inset.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/byteCounter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/eval_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/http1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/http2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/sleep.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/sorting.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,25 +39,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go语言圣经/ch7">
-    <configuration name="go build go语言圣经/ch4 (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go语言圣经" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch4/movie.go" />
-      <package value="go语言圣经/ch4" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go语言圣经/ch4 (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go语言圣经" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch4/github.go" />
-      <package value="go语言圣经/ch4" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build go语言圣经/ch7 (3)">
     <configuration name="go build go语言圣经/ch5 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
@@ -66,19 +49,37 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go语言圣经/ch5" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go语言圣经/ch7 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch5/topoSort.go" />
-      <package value="go语言圣经/ch5" />
+      <filePath value="$PROJECT_DIR$/ch7/sleep.go" />
+      <package value="go语言圣经/ch7" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go语言圣经/ch7 (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go语言圣经" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ch7/sorting.go" />
+      <package value="go语言圣经/ch7" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go语言圣经/ch7 (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go语言圣经" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ch7/http1.go" />
+      <package value="go语言圣经/ch7" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build go语言圣经/ch7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/ch7/byteCounter.go" />
       <package value="go语言圣经/ch7" />
       <directory value="$PROJECT_DIR$" />
@@ -86,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go语言圣经/ch7 (3)" />
+        <item itemvalue="Go Build.go build go语言圣经/ch7 (2)" />
+        <item itemvalue="Go Build.go build go语言圣经/ch7 (1)" />
         <item itemvalue="Go Build.go build go语言圣经/ch7" />
         <item itemvalue="Go Build.go build go语言圣经/ch5 (1)" />
-        <item itemvalue="Go Build.go build go语言圣经/ch5" />
-        <item itemvalue="Go Build.go build go语言圣经/ch4 (5)" />
-        <item itemvalue="Go Build.go build go语言圣经/ch4 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -103,22 +104,22 @@
       <screen x="0" y="25" width="1680" height="914" />
     </state>
     <state x="528" y="272" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.914@0.25.1680.914" timestamp="1618147798896" />
-    <state width="1628" height="228" key="GridCell.Tab.0.bottom" timestamp="1618148012325">
+    <state width="1628" height="228" key="GridCell.Tab.0.bottom" timestamp="1618219785207">
       <screen x="0" y="25" width="1680" height="914" />
     </state>
-    <state width="1628" height="228" key="GridCell.Tab.0.bottom/0.25.1680.914@0.25.1680.914" timestamp="1618148012325" />
-    <state width="1628" height="228" key="GridCell.Tab.0.center" timestamp="1618148012324">
+    <state width="1628" height="228" key="GridCell.Tab.0.bottom/0.25.1680.914@0.25.1680.914" timestamp="1618219785207" />
+    <state width="1628" height="228" key="GridCell.Tab.0.center" timestamp="1618219785206">
       <screen x="0" y="25" width="1680" height="914" />
     </state>
-    <state width="1628" height="228" key="GridCell.Tab.0.center/0.25.1680.914@0.25.1680.914" timestamp="1618148012324" />
-    <state width="1628" height="228" key="GridCell.Tab.0.left" timestamp="1618148012324">
+    <state width="1628" height="228" key="GridCell.Tab.0.center/0.25.1680.914@0.25.1680.914" timestamp="1618219785206" />
+    <state width="1628" height="228" key="GridCell.Tab.0.left" timestamp="1618219785206">
       <screen x="0" y="25" width="1680" height="914" />
     </state>
-    <state width="1628" height="228" key="GridCell.Tab.0.left/0.25.1680.914@0.25.1680.914" timestamp="1618148012324" />
-    <state width="1628" height="228" key="GridCell.Tab.0.right" timestamp="1618148012325">
+    <state width="1628" height="228" key="GridCell.Tab.0.left/0.25.1680.914@0.25.1680.914" timestamp="1618219785206" />
+    <state width="1628" height="228" key="GridCell.Tab.0.right" timestamp="1618219785206">
       <screen x="0" y="25" width="1680" height="914" />
     </state>
-    <state width="1628" height="228" key="GridCell.Tab.0.right/0.25.1680.914@0.25.1680.914" timestamp="1618148012325" />
+    <state width="1628" height="228" key="GridCell.Tab.0.right/0.25.1680.914@0.25.1680.914" timestamp="1618219785206" />
     <state x="421" y="25" width="838" height="1032" key="search.everywhere.popup" timestamp="1617793381394">
       <screen x="0" y="25" width="1680" height="914" />
     </state>
