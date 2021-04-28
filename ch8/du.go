@@ -33,6 +33,7 @@ func dirents(dir string) [] os.FileInfo {
 }
 
 func main() {
+	//解析命令行的输入,尤其指各种不同的标志位
 	flag.Parse()
 	roots := flag.Args()
 	if len(roots) == 0 {
@@ -44,11 +45,15 @@ func main() {
 		n.Add(1)
 		go walkDir(root,&n,fileSizes)
 	}
+	//这里必须用另外一个协程，因为会被Wait挡住，然后
+	//其余的协程则会因为无法往管道里写入数据而被阻塞,所以唯一的解决办法就是
+	//另外起一个协程来监听程序的完成的情况
 	go func() {
 		n.Wait()
 		close(fileSizes)
 	}()
 	var nfiles, nbytes int64
+	//对管道使用range，那么在管道为空时会阻塞，并且在管道关闭时会自动退出阻塞状态
 	for size := range fileSizes {
 		nfiles++
 		nbytes += size
