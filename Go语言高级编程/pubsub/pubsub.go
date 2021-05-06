@@ -92,12 +92,14 @@ func main() {
 	p := NewPublisher(100 * time.Millisecond,10)
 	defer p.Close()
 	all := p.Subscribe()
+	//定义主题收到消息后应该执行的函数
 	golang := p.SubscribeTopic(func(v interface{}) bool {
 		if s, ok := v.(string); ok {
 			return strings.Contains(s,"golang")
 		}
 		return false
 	})
+	//发布两条消息
 	p.Publish("hello world")
 	p.Publish("hello,golang")
 
