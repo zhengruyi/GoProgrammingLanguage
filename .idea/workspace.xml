@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee594d55-68f3-4481-9cce-71fd7e3ff0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Go语言高级编程/Number/libnumber.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go语言高级编程/Number/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go语言高级编程/Number/number.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go语言高级编程/Number/number.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go语言高级编程/Number/number.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go语言高级编程/rpc/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go语言高级编程/rpc/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go语言圣经/Go语言高级编程/Number">
+  <component name="RunManager" selected="Go Build.go build client.go">
+    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go语言圣经" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言高级编程/rpc/client.go" />
+      <package value="go语言圣经" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go语言圣经/Go语言高级编程/CGO" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,21 +68,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go语言圣经/ch8 (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go语言圣经/Go语言高级编程/rpc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch8/clock2.go" />
-      <package value="go语言圣经/ch8" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go语言圣经/ch8 (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go语言圣经" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch8/pipeline1.go" />
-      <package value="go语言圣经/ch8" />
+      <filePath value="$PROJECT_DIR$/Go语言高级编程/rpc/server.go" />
+      <package value="go语言圣经/Go语言高级编程/rpc" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -91,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build client.go" />
+        <item itemvalue="Go Build.go build go语言圣经/Go语言高级编程/rpc" />
         <item itemvalue="Go Build.go build go语言圣经/Go语言高级编程/Number" />
         <item itemvalue="Go Build.go build go语言圣经/Go语言高级编程/CGO" />
         <item itemvalue="Go Build.go build go语言圣经/ch8 (4)" />
-        <item itemvalue="Go Build.go build go语言圣经/ch8 (3)" />
-        <item itemvalue="Go Build.go build go语言圣经/ch8 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -111,26 +108,26 @@
       <screen x="0" y="25" width="1680" height="914" />
     </state>
     <state x="528" y="272" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.914@0.25.1680.914" timestamp="1618147798896" />
-    <state width="1628" height="228" key="GridCell.Tab.0.bottom" timestamp="1620474300874">
+    <state width="1628" height="228" key="GridCell.Tab.0.bottom" timestamp="1620549783751">
       <screen x="0" y="25" width="3440" height="1304" />
     </state>
     <state width="1628" height="228" key="GridCell.Tab.0.bottom/0.25.1680.914@0.25.1680.914" timestamp="1618846999289" />
-    <state width="1628" height="228" key="GridCell.Tab.0.bottom/0.25.3440.1304@0.25.3440.1304" timestamp="1620474300874" />
-    <state width="1628" height="228" key="GridCell.Tab.0.center" timestamp="1620474300872">
+    <state width="1628" height="228" key="GridCell.Tab.0.bottom/0.25.3440.1304@0.25.3440.1304" timestamp="1620549783751" />
+    <state width="1628" height="228" key="GridCell.Tab.0.center" timestamp="1620549783750">
       <screen x="0" y="25" width="3440" height="1304" />
     </state>
     <state width="1628" height="228" key="GridCell.Tab.0.center/0.25.1680.914@0.25.1680.914" timestamp="1618846999289" />
-    <state width="1628" height="228" key="GridCell.Tab.0.center/0.25.3440.1304@0.25.3440.1304" timestamp="1620474300872" />
-    <state width="1628" height="228" key="GridCell.Tab.0.left" timestamp="1620474300871">
+    <state width="1628" height="228" key="GridCell.Tab.0.center/0.25.3440.1304@0.25.3440.1304" timestamp="1620549783750" />
+    <state width="1628" height="228" key="GridCell.Tab.0.left" timestamp="1620549783749">
       <screen x="0" y="25" width="3440" height="1304" />
     </state>
     <state width="1628" height="228" key="GridCell.Tab.0.left/0.25.1680.914@0.25.1680.914" timestamp="1618846999287" />
-    <state width="1628" height="228" key="GridCell.Tab.0.left/0.25.3440.1304@0.25.3440.1304" timestamp="1620474300871" />
-    <state width="1628" height="228" key="GridCell.Tab.0.right" timestamp="1620474300873">
+    <state width="1628" height="228" key="GridCell.Tab.0.left/0.25.3440.1304@0.25.3440.1304" timestamp="1620549783749" />
+    <state width="1628" height="228" key="GridCell.Tab.0.right" timestamp="1620549783751">
       <screen x="0" y="25" width="3440" height="1304" />
     </state>
     <state width="1628" height="228" key="GridCell.Tab.0.right/0.25.1680.914@0.25.1680.914" timestamp="1618846999289" />
-    <state width="1628" height="228" key="GridCell.Tab.0.right/0.25.3440.1304@0.25.3440.1304" timestamp="1620474300873" />
+    <state width="1628" height="228" key="GridCell.Tab.0.right/0.25.3440.1304@0.25.3440.1304" timestamp="1620549783751" />
     <state x="471" y="25" width="738" height="914" key="find.popup" timestamp="1619420040149">
       <screen x="0" y="25" width="1680" height="914" />
     </state>
