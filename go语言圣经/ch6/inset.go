@@ -22,7 +22,7 @@ func (s *IntSet) Add(x int)  {
 	s.words[word] |= 1 << bit
 }
 
-func (s * IntSet) UnionWidth(t *IntSet)  {
+func (s *IntSet) UnionWidth(t *IntSet)  {
 	for i, tword := range t.words {
 		if i < len(s.words) {
 			s.words[i] |= tword

@@ -8,7 +8,7 @@ type tree struct {
 func Sort(values []int)  {
 	var root *tree
 	for _, v := range values {
-		root = add (root ,v)
+		root = add(root ,v)
 	}
 	appendValues(values[:0], root)
 }
@@ -27,7 +27,7 @@ func appendValues(values []int, t *tree) []int {
 根据value和当前节点的值，选择将值插在当前节点的左边还是右边
 
  */
-func add(t * tree, value int) *tree  {
+func add(t *tree, value int) *tree {
 	if t == nil {
 		t = new (tree)
 		t.value = value

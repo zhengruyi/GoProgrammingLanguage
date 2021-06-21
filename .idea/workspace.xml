@@ -43,45 +43,45 @@
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言高级编程/rpc/client.go" />
       <package value="go语言圣经" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Go语言高级编程/rpc/client.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go语言圣经/Go语言高级编程/CGO" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/Go语言高级编程/CGO/sayHello.go" />
       <package value="go语言圣经/Go语言高级编程/CGO" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Go语言高级编程/CGO/sayHello.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go语言圣经/Go语言高级编程/Number" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/Go语言高级编程/Number/main.go" />
       <package value="go语言圣经/Go语言高级编程/Number" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Go语言高级编程/Number/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go语言圣经/Go语言高级编程/rpc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言高级编程/rpc/server.go" />
       <package value="go语言圣经/Go语言高级编程/rpc" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Go语言高级编程/rpc/server.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go语言圣经/ch8 (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go语言圣经" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch8/pipeline2.go" />
       <package value="go语言圣经/ch8" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch8/pipeline2.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
