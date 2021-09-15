@@ -5,60 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee594d55-68f3-4481-9cce-71fd7e3ff0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Go高并发与微服务实战/discovery/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go高并发与微服务实战/discovery/discover/discovery_client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go高并发与微服务实战/discovery/endpoint/endpoints.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go高并发与微服务实战/discovery/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go高并发与微服务实战/discovery/service/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go高并发与微服务实战/discovery/transport/http.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go高并发与微服务实战/flag/flag.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/dup1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/dup1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/dup2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/dup2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/dup3.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/dup3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/echo1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/echo1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/echo2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/echo2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/echo3.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/echo3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/fetch.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/fetch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/fetchAll.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/fetchAll.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/lissajous.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/lissajous.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/server1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/server1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch1/server2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch1/server2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch11/word.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch11/word.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch11/word_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch11/word_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch2/popCount.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch2/popCount.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch3/baseName1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch3/baseName1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch3/baseName2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch3/baseName2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch3/comma.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch3/comma.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch3/printInts.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch3/printInts.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch3/surface.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch3/surface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/append.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/append.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/charCount.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/charCount.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/dedup.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/dedup.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/embed.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/embed.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/github.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/github.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/movie.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/movie.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/rev.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/rev.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch4/treeSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch4/treeSort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch5/topoSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch5/topoSort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch5/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch5/trace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch6/inset.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch6/inset.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch7/byteCounter.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch7/byteCounter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch7/eval_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch7/eval_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch7/http1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch7/http1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch7/http2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch7/http2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch7/sleep.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch7/sleep.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch7/sorting.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch7/sorting.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/clock1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/clock1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/clock2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/clock2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/countdown1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/countdown1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/craw1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/craw1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/du.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/du.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/pipeline1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/pipeline1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/pipeline2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/pipeline2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go语言圣经/ch8/spinner.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言圣经/ch8/spinner.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
