@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee594d55-68f3-4481-9cce-71fd7e3ff0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leetcode.com/Other/Q11_Container With Most Water.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode.com/LinkedList/Q19_Remove Nth Node From End of List.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode.com/Other/Q15_3Sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode.com/Other/Q18_4Sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +68,7 @@
       <recent name="$PROJECT_DIR$/go语言圣经" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build GoProgrammingLanguage/Go飞雪博客/Atomic">
+  <component name="RunManager" selected="Go Build.go build GoProgrammingLanguage">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoPratice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -74,6 +77,15 @@
       <package value="GoProgrammingLanguage" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoProgrammingLanguage" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPratice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoProgrammingLanguage" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build GoProgrammingLanguage/Go高并发与微服务实战" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -103,15 +115,6 @@
       <filePath value="$PROJECT_DIR$/Go语言高级编程/rpc/client.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go语言圣经/Go语言高级编程/Number" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoPratice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go语言圣经/Go语言高级编程/Number" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Go语言高级编程/Number/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build go语言圣经/Go语言高级编程/rpc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPratice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GoProgrammingLanguage" />
         <item itemvalue="Go Build.go build GoProgrammingLanguage/Go飞雪博客/Atomic" />
         <item itemvalue="Go Build.go build GoProgrammingLanguage/Go高并发与微服务实战" />
         <item itemvalue="Go Build.go build client.go" />
         <item itemvalue="Go Build.go build go语言圣经/Go语言高级编程/rpc" />
-        <item itemvalue="Go Build.go build go语言圣经/Go语言高级编程/Number" />
       </list>
     </recent_temporary>
   </component>
@@ -148,5 +151,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
