@@ -1,32 +1,27 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+func isInterleave(s1 string, s2 string, s3 string) bool {
+	i := 0
+	j := 0
+	k := 0
+	for;k < len(s3);k++ {
 
-func inorderTraversal(root *TreeNode) []int {
-	res := []int{}
-	if root == nil {
-		return res
-	}
-	recursive(root, res)
-	return res
-}
-func recursive(root *TreeNode, res []int) {
-	if root == nil {
-		return
-	}
-	recursive(root.Left, res)
-	res = append(res, root.Val)
-	recursive(root.Right, res)
-}
+		if i < len(s1) && s3[k] == s1[i] {
+			i++
+			continue
+		}
 
+		if j < len(s2) && s3[k] == s2[j] {
+			j++
+			continue
+		}
+
+		return false
+	}
+
+	return k == len(s3) && i == len(s1) && j == len(s2)
+}
 
 func main() {
-	left := &TreeNode{1,nil,nil}
-	right := &TreeNode{3,nil,nil}
-	root := &TreeNode{2,left,right}
-	inorderTraversal(root)
+isInterleave("aabcc","dbbca","aadbbcbcac")
 }
