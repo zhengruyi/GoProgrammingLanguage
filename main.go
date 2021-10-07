@@ -1,27 +1,43 @@
 package main
 
-func isInterleave(s1 string, s2 string, s3 string) bool {
-	i := 0
-	j := 0
-	k := 0
-	for;k < len(s3);k++ {
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
-		if i < len(s1) && s3[k] == s1[i] {
-			i++
-			continue
-		}
+func sumNumbers(root *TreeNode) int {
+	var res []int
+	sumTree(root, 0, res)
+	sum := 0
+	for _, num := range res {
+		sum += num
+	}
+	return sum
+}
 
-		if j < len(s2) && s3[k] == s2[j] {
-			j++
-			continue
-		}
-
-		return false
+func sumTree(root *TreeNode, num int, res []int) []int{
+	if root != nil {
+		num = num * 10 + root.Val
 	}
 
-	return k == len(s3) && i == len(s1) && j == len(s2)
+	if root.Left == nil && root.Right == nil {
+		res = append(res,num)
+		return res
+	}
+
+	if root.Left != nil {
+		res = append(res,sumTree(root.Left, num,res)...)
+	}
+	if root.Right != nil {
+		res = append(res,sumTree(root.Right,num, res)...)
+	}
+	return res
 }
 
 func main() {
-isInterleave("aabcc","dbbca","aadbbcbcac")
+	left := &TreeNode{2,nil,nil}
+	right := &TreeNode{3,nil,nil}
+	root := &TreeNode{1,left,right}
+	sumNumbers(root)
 }
