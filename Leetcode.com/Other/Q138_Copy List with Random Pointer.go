@@ -1,11 +1,11 @@
-package main
+package Other
 
 type Node struct {
 	Val    int
 	Next   *Node
 	Random *Node
 }
-
+//注意复制的时候不要删除原来的Next指向的内容
 func copyRandomList(head *Node) *Node {
 	dummy := &Node{-1, nil, nil}
 	cur := dummy
@@ -42,11 +42,4 @@ func copyRandomList(head *Node) *Node {
 		cur = cur.Next
 	}
 	return dummy.Next
-}
-
-func main() {
-	n13 := &Node{13,nil,nil}
-	head := &Node{7,n13,nil}
-	n13.Random = head
-	copyRandomList(head)
 }
