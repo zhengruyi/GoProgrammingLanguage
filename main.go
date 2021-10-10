@@ -1,52 +1,41 @@
 package main
 
-type Node struct {
-	Val    int
-	Next   *Node
-	Random *Node
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
-func copyRandomList(head *Node) *Node {
-	dummy := &Node{-1, nil, nil}
-	cur := dummy
-	first := head
-
-	for ; first != nil; {
-		cur.Next = first
-		cur = first
-		tmp := &Node{first.Val, nil, nil}
-		tmp.Next = first.Next
-		cur.Next = tmp
-		cur = cur.Next
-		first = first.Next.Next
+func sumNumbers(root *TreeNode) int {
+	if root == nil {
+		return 0
 	}
+	sum := 0
+	sumTree(root, &sum, nil)
+	return sum
+}
 
-	first = head
+func sumTree(root *TreeNode, sum *int, nums []int) {
 
-	for ; first != nil; {
-		if first.Random != nil {
-			first.Next.Random = first.Random.Next
-		} else {
-			first.Next.Random = nil
+	if root.Left == nil && root.Right == nil {
+		tmp := 0
+		for _, num := range nums {
+			tmp = tmp*10 + num
 		}
-
-		first = first.Next.Next
+		*sum += tmp
 	}
 
-	first = head
-	cur = dummy
-	for ; first != nil; {
-		cur.Next = first.Next
-		first.Next = first.Next.Next
-		first = first.Next
-		cur = cur.Next
+	if root.Left != nil {
+		sumTree(root.Left, sum, append(nums, root.Val))
 	}
-	return dummy.Next
+
+	if root.Right != nil {
+		sumTree(root.Right, sum, append(nums, root.Val))
+	}
 }
-
 func main() {
-	n13 := &Node{13,nil,nil}
-	head := &Node{7,n13,nil}
-	n13.Random = head
-	copyRandomList(head)
+	left := &TreeNode{2,nil,nil}
+	right := &TreeNode{3,nil,nil}
+	root := &TreeNode{1,left,right}
+	sumNumbers(root)
 }
