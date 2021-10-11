@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee594d55-68f3-4481-9cce-71fd7e3ff0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leetcode.com/Tree/Q129_Sum Root to Leaf Numbers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode.com/DP/Q198_House Robber.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode.com/LinkedList/Q202_Happy Number.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
