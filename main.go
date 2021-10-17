@@ -31,5 +31,7 @@ func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 	return false
 }
 func main() {
-	containsNearbyAlmostDuplicate([]int{1,2,3,1},3,0)
+	path := []int{1,2,3,4,5}
+	var res [][]int
+	res = append(res, append([]int{6}, path... ))
 }
