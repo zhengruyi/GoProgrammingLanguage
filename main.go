@@ -1,37 +1,35 @@
 package main
 
-import "math"
+import "fmt"
 
-func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
-	if len(nums) < 2 || k == 0 {
-		return false
-	}
-
-	stats := make(map[int]int,len(nums))
-	min := math.MinInt32
-	for i,n := range nums {
-		if len(stats) > k {
-			delete(stats,(nums[i-k-1] - min)/(t+1))
-		}
-		idx := (n - min)/(t+1)
-		if _, ok := stats[idx]; ok {
-			return true
-		}
-
-		if t > 0 {
-			if v, ok := stats[idx-1]; ok && n - v <= t {
-				return true
-			}
-
-			if v, ok := stats[idx+1]; ok && v - n <= t {
-				return true
+func numIslands(grid [][]byte) int {
+	res := 0
+	for i := 0; i < len(grid); i++ {
+		for j := 0; j < len(grid[0]); j++ {
+			if grid[i][j] == byte('1') {
+				dfs(grid,i,j)
+				res++
 			}
 		}
 	}
-	return false
+	return res
 }
-func main() {
-	path := []int{1,2,3,4,5}
-	var res [][]int
-	res = append(res, append([]int{6}, path... ))
+
+func dfs(grid [][]byte, i,j int) {
+	grid[i][j] = byte('0')
+	direct := [][]int{{1,-1},{1,1},{-1,1},{-1,-1}}
+	rows := len(grid)
+	cols := len(grid[0])
+	for _, offset := range direct {
+		newX := i + offset[0]
+		newY := j + offset[1]
+		if newX >= 0 && newX < rows && newY >=0 && newY < cols && grid[newX][newY] == byte('1') {
+			dfs(grid,newX,newY)
+		}
+	}
+}
+func main(){
+	fmt.Println(byte('1'))
+grid := [][]byte{{'1','1','1','1','0'},{'0','0','0','0','0'}}
+numIslands(grid)
 }
