@@ -2,34 +2,28 @@ package main
 
 import "fmt"
 
-func numIslands(grid [][]byte) int {
-	res := 0
-	for i := 0; i < len(grid); i++ {
-		for j := 0; j < len(grid[0]); j++ {
-			if grid[i][j] == byte('1') {
-				dfs(grid,i,j)
-				res++
-			}
-		}
+func singleNumber(nums []int) []int {
+	xor := 0
+	for _, num := range nums {
+		xor ^= num
 	}
-	return res
-}
 
-func dfs(grid [][]byte, i,j int) {
-	grid[i][j] = byte('0')
-	direct := [][]int{{1,-1},{1,1},{-1,1},{-1,-1}}
-	rows := len(grid)
-	cols := len(grid[0])
-	for _, offset := range direct {
-		newX := i + offset[0]
-		newY := j + offset[1]
-		if newX >= 0 && newX < rows && newY >=0 && newY < cols && grid[newX][newY] == byte('1') {
-			dfs(grid,newX,newY)
+	flag := 1
+	dup := xor
+
+	for; (dup & 1) == 0; {
+		flag = 1 << flag
+		dup = dup >> 1
+	}
+	n1 := 0
+	for _, num := range nums {
+		if (num & flag) == 1 {
+			n1 ^=  num
 		}
 	}
+	return []int{n1,xor ^ n1}
 }
 func main(){
-	fmt.Println(byte('1'))
-grid := [][]byte{{'1','1','1','1','0'},{'0','0','0','0','0'}}
-numIslands(grid)
+	fmt.Println(2&2)
+	singleNumber([]int{1,2,1,3,2,5})
 }
