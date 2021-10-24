@@ -1,5 +1,7 @@
-package main
+package LinkedList
 
+// nums[i]表示入口的指针来自i,下一个节点在nums[i]处,所以nums转化成链表
+//然后位难题转化成了寻找链表成环的入口节点
 func findDuplicate(nums []int) int {
 
 	if len(nums) <= 2{
@@ -21,8 +23,4 @@ func findDuplicate(nums []int) int {
 		fast = nums[fast]
 	}
 	return slow
-}
-
-func main(){
-	findDuplicate([]int{1,3,4,2,2})
 }
